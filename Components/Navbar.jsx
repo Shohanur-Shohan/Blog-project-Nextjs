@@ -6,9 +6,9 @@ export default function Navbar() {
         <div className="flex justify-between px-10 mb-5 shadow-md">
             <div className="my-auto text-3xl">Blog</div>
             <div className="flex my-auto text-lg">
-                <Link className='ml-5' href='/'>Home</Link>
-                <Link className='ml-5' href='/blog'>Blog</Link>
-                <Link className='ml-5' href='/post'>Post</Link>
+                <Link className="ml-5" href='/'>Home</Link>
+                <Link className="ml-5" href='/blog'>Blog</Link>
+                <Link className="ml-5" href='/post'>Post</Link>
             </div>
         </div>
     );
