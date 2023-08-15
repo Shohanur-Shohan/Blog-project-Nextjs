@@ -1,8 +1,7 @@
-'use client'
-import Link from 'next/link';
-import React from 'react';
 
-const Navbar = () => {
+import Link from 'next/link';
+
+export default function Navbar() {
     return (
         <div className="flex justify-between px-10 mb-5 shadow-md">
             <div className="my-auto text-3xl">Blog</div>
@@ -13,6 +12,4 @@ const Navbar = () => {
             </div>
         </div>
     );
-};
-
-export default Navbar;
+}
